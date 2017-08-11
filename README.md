@@ -4,7 +4,7 @@ Send a batch of SNS messages, and execute a callback when all are complete
 
 ## Abstract
 
-`aws-sdk` doesn't have a way to send multiple msgs in na single call. If you need to send multiple msgs, you have to wrangle a bunch of callbacks.
+`aws-sdk` doesn't have a way to send multiple msgs in a single call. If you need to send multiple msgs, you have to wrangle a bunch of callbacks.
 
 ## Installation
 
