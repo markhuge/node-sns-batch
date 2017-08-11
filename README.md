@@ -14,7 +14,11 @@ Send a batch of SNS messages, and execute a callback when all are complete
 ## Usage
 
 ```
-const sns = require('sns-batch');
+const aws = require('aws-sdk');
+aws.config.update({region: 'us-west-2'});
+
+// Pass in configured aws client
+const sns = require('sns-batch')(aws);
 
 const msgs = [
   { TargetArn: 'my arn', Message: "msg one" },
