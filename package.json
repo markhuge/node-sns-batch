@@ -1,0 +1,23 @@
+{
+  "peerDependencies": {
+    "aws-sdk": "^2.96.0"
+  },
+  "name": "sns-batch",
+  "description": "Send a batch of SNS messages, and execute a callback when all are complete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markhuge/node-sns-batch.git"
+  },
+  "keywords": [
+    "aws",
+    "sns"
+  ],
+  "author": "Mark Wilkerson <mark@markwilkerson.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markhuge/node-sns-batch/issues"
+  },
+  "homepage": "https://github.com/markhuge/node-sns-batch#readme"
+}
